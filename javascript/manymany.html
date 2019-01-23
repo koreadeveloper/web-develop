@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+      function hello(){
+        document.write("hello");
+      }
+      var glo_var=1;
+      function numout1(){
+        civar=2;
+      }
+      hello();
+      numout1();
+      document.write("<br>");
+      document.write(glo_var);
+      document.write("<br>");
+      document.write(civar);
+      document.write("<br>");
+      a=20;
+      if(a==50){
+        document.write("right!");
+      }
+      else if(a==20){
+        document.write("left!");
+      }
+      document.write("<br>");
+      myanimal="cat"
+      switch(myanimal){
+        case "dog":
+        document.write("my animal is dog");
+        break;
+        case "horse":
+        document.write("my animal is horse");
+        break;
+        case "cat":
+        document.write("my animal is cat");
+        break;
+        case "frog":
+        document.write("my animal is frog");
+        break;
+        case "bird":
+        document.write("my animal is bird");
+        break;
+        default:
+        document.write("my animal is... what??")
+      }
+      document.write("<br>");
+      b=1;
+      while(b<=10){
+        document.write(b);
+        document.write("<br>");
+        b++;
+      }
+      c=10
+      do{
+        document.write(c);
+        c--
+      }while(c==0)
+      document.write("<br>");
+      d=0
+      for(d=3;d<=5;d++)
+      {
+        document.write(d);
+      }
+      document.write("<br>");
+      document.write("[----- 구구단 출력 -----]");
+      document.write("<br>");
+      e=2;
+      f=1;
+      for(e=2;e<=9;e++){
+        for(f=1;f<=9;f++){
+          document.write(e+"x"+f+"="+e*f);
+          document.write("<br>");
+        }
+      }
+      document.write("코노:코딩노예:codingnoye");
+      document.write("<br>");
+      document.write("코주:코딩주인:codingjuin");
+      g=1;
+      for(g=1;g<=5;g++)
+      {
+        if(g==3){
+          continue;
+        }
+        document.write("<br>"+g);
+      }
+      h=1;
+      for(h=1;h<=5;h++)
+      {
+        if(h==3){
+          break;
+        }
+        document.write("<br>"+h);
+      }
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

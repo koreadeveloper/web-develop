@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+    /*
+
+    ----- 이  부분은 자바스크립트 confirm과 function 코드창입니다. -----
+
+      var whathappen=confirm("어떤값이 나올까유?");
+      if(whathappen==true){
+        document.write("확인을 누르셨군요"+"<br>");
+      }
+      else if(whathappen==false){
+        document.write("취소를 누르셨군요"+"<br>");
+      }
+      document.write("br확인용 문구"+"<BR>");
+      function function_helloworld(){
+        document.write("helloworld");
+      }
+      function_helloworld();
+      document.write("<br>");
+      function addnum(a,b){
+        $num=a+b;
+        document.write($num);
+      }
+      addnum(123,456);
+      */
+      /* function 2 와 factorial_num 함수
+      function plusplus(num1){
+        result=num1*2;
+        return result;
+      }
+      plusplus(2);
+      document.write(plusplus(2));
+      document.write("<br>");
+      document.write(plusplus(plusplus(plusplus(plusplus(plusplus(plusplus(2)))))));
+      document.write("<br>");
+      function factorial_num(numb){
+        endNumber=1;
+        if(numb==1){
+          return endNumber;
+        }
+        else{
+          return numb*factorial_num(numb-1);
+        }
+      }
+      document.write(factorial_num(5));
+      */
+      function makeCar(){
+        this.name;
+        this.company;
+        this.color;
+        this.numPeople;
+        this.meth = showCar;
+      }
+      function showCar(){
+        document.write("자동차 이름 : "+this.name+"<br />");
+        document.write("자동차 제조사 : "+this.company+"<br />");
+        document.write("자동차 탑승인원 : "+this.numPeople +"<br />");
+        document.write("차량 색상 : "+ this.color +"<br />");
+      }
+      r8 = new makeCar();
+      r8.name="R8";
+      r8.company = "AUDI";
+      r8.color = "white";
+      r8.numPeople = 2;
+      r8.meth();
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
